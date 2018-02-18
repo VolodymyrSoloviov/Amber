@@ -1,0 +1,39 @@
+.billboard {
+	height: 570px;
+	background: url('/img/bg/billboard-bg.png');
+	box-shadow: 0px 4px 0px 0px rgba(243, 73, 73, 1);
+}
+
+.billboard__wrap {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(63, 63, 63, .8);
+}
+
+.billboard__text {
+	margin: auto;
+}
+
+.billboard__title {
+	font-family: 'wc_mano_negra_btaregular';
+	font-size: 80px;
+	color: $white;
+}
+
+.billboard__caption {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.billboard__line {
+	height: 1px;
+	width: 40px;
+	background-color: #fff;
+}
+
+.billboard__caption-text {
+	color: $white;
+	margin: 0 25px;
+}

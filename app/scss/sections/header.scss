@@ -1,0 +1,40 @@
+.header {
+	background-color: #fff;
+}
+
+.header__wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 110px;
+}
+
+.logo__link {
+	display: block;
+	height: 30px;
+	width: 80px;
+	background: url('/img/logo/logo.png') center center no-repeat;
+}
+
+.nav__list {
+	display: flex;
+}
+
+.nav__item {
+	margin-left: 50px;
+
+	&:first-child {
+		margin-left: 0;
+	}
+}
+
+.nav__link {
+	text-decoration: none;
+	font-size: 14px;
+	color: #3b3b3b;
+	transition: .3s;
+
+	&:hover {
+		color: red;
+	}
+}
