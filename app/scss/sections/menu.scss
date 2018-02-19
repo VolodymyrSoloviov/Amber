@@ -1,0 +1,99 @@
+.menu {
+	margin-bottom: 200px;
+}
+
+.menu__wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.menu__title {
+	height: 75px;
+	width: 155px;
+	font-weight: 700;
+	font-size: 20px;
+	color: $white;
+	padding-top: 25px;
+	margin-bottom: 80px;
+	text-align: center;
+	background: url('/img/bg/menu.png') center center no-repeat;
+}
+
+.dishes {
+	margin-bottom: 30px;
+}
+
+.dishes__list {
+	height: 396px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: flex-start;
+	overflow: hidden;
+}
+
+.dishes__list_active {
+	height: 100%;
+}
+
+.dishes__item {
+	width: 490px;
+	margin-bottom: 60px;
+}
+
+.dishes__item-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.dishes__name {
+	margin-right: 45px;
+}
+
+.dishes__line {
+	height: 1px;
+	width: 10px;
+	background-color: #e3e1e1;
+	flex-grow: 1;
+}
+
+.dishes__price {
+	margin-left: 45px;
+}
+
+.dishes__description {
+	font-weight: 300;
+  font-style: italic;
+  color: $light-gray;
+  font-size: 12px;
+}
+
+.menu__btn {
+	height: 34px;
+	width: 133px;
+	border: 1px solid #d7d5d5; 
+}
+
+.menu__btn-link {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	font-size: 14px;
+	color: $light-gray;
+	transition: .3s;
+
+	&:hover {
+		background-color: #ff6363;
+		color: #fff;
+	}
+}
+
+.menu__btn-text {
+	border-right: 1px solid $light-gray;
+	padding-right: 13px;
+	margin-right: 12px;
+}

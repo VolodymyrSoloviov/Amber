@@ -68,6 +68,24 @@ h6 {
   font-weight: 700;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/fa-regular-400.woff") format("woff"), url("../../fonts/fa-regular-400.svg#fontawesome") format("svg"); }
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/fa-brands-400.woff") format("woff"), url("../../fonts/fa-brands-400.svg#fontawesome") format("svg"); }
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../fonts/fa-solid-900.woff") format("woff"), url("../../fonts/fa-solid-900.svg#fontawesome") format("svg"); }
+
 .header {
   background-color: #fff; }
 
@@ -139,5 +157,187 @@ h6 {
 .billboard__caption-text {
   color: #fff;
   margin: 0 25px; }
+
+.menu {
+  margin-bottom: 200px; }
+
+.menu__wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.menu__title {
+  height: 75px;
+  width: 155px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  padding-top: 25px;
+  margin-bottom: 80px;
+  text-align: center;
+  background: url("/img/bg/menu.png") center center no-repeat; }
+
+.dishes {
+  margin-bottom: 30px; }
+
+.dishes__list {
+  height: 396px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  overflow: hidden; }
+
+.dishes__list_active {
+  height: 100%; }
+
+.dishes__item {
+  width: 490px;
+  margin-bottom: 60px; }
+
+.dishes__item-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.dishes__name {
+  margin-right: 45px; }
+
+.dishes__line {
+  height: 1px;
+  width: 10px;
+  background-color: #e3e1e1;
+  -ms-flex-positive: 1;
+      flex-grow: 1; }
+
+.dishes__price {
+  margin-left: 45px; }
+
+.dishes__description {
+  font-weight: 300;
+  font-style: italic;
+  color: #b7b7b7;
+  font-size: 12px; }
+
+.menu__btn {
+  height: 34px;
+  width: 133px;
+  border: 1px solid #d7d5d5; }
+
+.menu__btn-link {
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  text-decoration: none;
+  font-size: 14px;
+  color: #b7b7b7;
+  transition: .3s; }
+  .menu__btn-link:hover {
+    background-color: #ff6363;
+    color: #fff; }
+
+.menu__btn-text {
+  border-right: 1px solid #b7b7b7;
+  padding-right: 13px;
+  margin-right: 12px; }
+
+.featured-dishes {
+  margin-bottom: 200px; }
+
+.featured-dishes__top {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-bottom: 80px; }
+
+.featured-dishes__title {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #3b3b3b;
+  margin-right: 20px; }
+
+.featured-dishes__line {
+  height: 1px;
+  width: 200px;
+  background-color: #e5e3e3; }
+
+.featured-dishes__item {
+  width: 230px;
+  overflow: hidden;
+  margin-right: 60px; }
+
+.featured-dishes__pic {
+  height: 200px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px; }
+
+.featured-dishes__list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.featured-dishes__img {
+  position: absolute;
+  top: 0;
+  left: -9999px; }
+
+.featured-dishes__description-top {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  font-weight: 300; }
+
+.featured-dishes__star {
+  position: relative;
+  font-size: 13px; }
+  .featured-dishes__star:after {
+    content: "\f005";
+    font-family: FontAwesome;
+    color: #dedede; }
+
+.yellow-star:after {
+  color: #f1df1a; }
+
+.owl-dots {
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: -100px;
+  right: 0; }
+
+.owl-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #dedede;
+  margin-left: 11px; }
+  .owl-dot:first-child {
+    margin-left: 0; }
+
+.owl-dot.active {
+  background-color: #9b9b9b; }
+
+.owl-nav {
+  display: none; }
 
 /*# sourceMappingURL=maps/main.min.css.map */
