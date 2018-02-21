@@ -16,8 +16,10 @@ $white: #fff;
 @import "sections/featured-dishes";
 @import "sections/gallery";
 @import "sections/footer";
+@import "sections/menu-burger";
 
 //media
+@import "media/tv";
 @import "media/desktop";
 @import "media/laptop";
 @import "media/tablets";

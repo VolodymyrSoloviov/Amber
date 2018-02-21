@@ -1,0 +1,54 @@
+@media screen and (max-width: 480px) {
+	.container {
+		width: 95%;
+	}
+
+	.billboard {
+		height: 400px;
+	}
+
+	.billboard__line {
+		width: 40px;
+	}
+
+	.billboard__text {
+		text-align: center;
+		padding: 0 10px;
+	}
+
+	.dishes__line,
+	.gallery__line {
+		display: none;
+	}
+
+	.owl-dots {
+		display: none;
+	}
+
+	.featured-dishes__item {
+		margin-right: 15px;
+	}
+
+	.footer {
+		padding-top: 34px;
+	}
+
+	.footer__list {
+		flex-direction: column;
+	}
+	
+	.footer__item {
+		width: 100%;
+		text-align: center;
+
+		&:first-child {
+			margin-bottom: 40px;
+		}
+	}
+
+	.footer__item_links {
+		display: none;
+	}
+
+
+}

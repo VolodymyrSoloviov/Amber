@@ -28,8 +28,8 @@ const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'developm
 var moduleJs = [
   'app/js/first.js', 
   'app/js/second.js', 
-  'app/js/third.js', 
-  'app/js/main.js'
+  'app/js/third.js',
+  'app/js/menu-burger.js'
   ];
 // Пути к нашим внешним плагинам и библиотекам javascript
 var vendorJs = [

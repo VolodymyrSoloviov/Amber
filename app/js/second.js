@@ -1,8 +1,10 @@
 $(function() {
 
+
+
 	var div = $('.dishes__list'),
-			content = $('.menu__btn-text');
-	var icon = $('.menu__btn-icon');
+			content = $('.menu__btn-text'),
+			icon = $('.menu__btn-icon');
 
 	$('.menu__btn-link').on('click', function(e){
 		e.preventDefault();
@@ -13,6 +15,7 @@ $(function() {
 		}	else {
 			div.removeClass('dishes__list_active');
 			content.text("load more");
+			
 		}
 
 		if(!icon.hasClass('fa-angle-up')) {

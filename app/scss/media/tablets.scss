@@ -1,0 +1,69 @@
+@media screen and (max-width: 768px) {
+	.container {
+		width: 460px;
+	}
+
+	.adaptive-menu {
+		display: block;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.billboard__title {
+		font-size: 47px;
+	}
+
+	.menu,
+	.featured-dishes,
+	.gallery {
+		margin-bottom: 100px;
+	}
+
+	.dishes__item {
+		width: 100%;
+	}
+
+	.featured-dishes__line {
+		display: none;
+	}
+
+	.featured-dishes__item {
+		width: 215px;
+	}
+
+	.gallery__bottom {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.gallery__big-wrap {
+		flex: 1 1 100%;
+		margin-bottom: 15px;
+	}
+
+	.gallery__item {
+		flex: 1 1 100%;
+		height: 100%;
+		margin-bottom: 10px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.footer__list {
+		justify-content: space-between;
+		padding: 0 5px;
+	}
+
+	.footer__item {
+		margin-right: 0;
+		flex: none;
+	}
+
+	.footer__item_copyright {
+		display: none;
+	}
+}

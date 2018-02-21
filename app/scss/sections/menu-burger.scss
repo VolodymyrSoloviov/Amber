@@ -1,0 +1,75 @@
+.popup {
+	display: none;
+}
+
+.menu-burger {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	background: url(../img/bg/pizza.jpg) center center no-repeat;
+	background-size: cover;
+	padding: 40px;
+
+	.logo__first,
+	.logo__second {
+		color: $white;
+	}
+}
+
+.menu-burger__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 60px;	
+}
+
+.menu-burger__icon {
+	font-size: 23px;
+	color: #fff;
+	transition: .3s;
+
+	&:hover {
+		color: red;
+	}
+}
+
+.menu-burger__list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+	margin-bottom: 60px;
+}
+
+.menu-burger__item {
+	position: relative;
+	margin-bottom: 10px;
+	font-size: 30px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.menu-burger__link {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'wc_mano_negra_btaregular';
+	font-weight: 700;
+	transition: .3s;
+
+	&:hover {
+			color: red;
+		}
+}
+
+//Стилізація fancy-box
+
+.fancybox-close-small {
+	display: none;
+}
