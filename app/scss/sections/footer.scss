@@ -1,0 +1,67 @@
+.footer {
+	height: 317px;
+	background-color: #3b3b3b;
+	padding-top: 100px;
+}
+
+.footer__list {
+	display: flex;
+}
+
+.footer__item {
+	flex: 1 1 230px;
+	margin-right: 60px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.restaurant__title {
+	color: $white;
+	margin-bottom: 5px;
+}
+
+.restaurant__address {
+	font-weight: 300;
+	color: #ebebeb;
+	line-height: 25px;
+	margin-bottom: 5px;
+}
+
+.restaurant__phone {
+	font-weight: 700;
+	color: #ebebeb;
+}
+
+.footer__link {
+	display: block;
+	text-decoration: none;
+	color: $white;
+	margin-bottom: 15px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.footer__logo-link {
+	display: block;
+	height: 30px;
+	width: 80px;
+	margin-bottom: 20px;
+	background: url('/img/logo/white-logo.png') center center no-repeat;
+}
+
+.footer__copyright {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 30px;
+	color: #ececec;
+}
+
+.footer__copyright-link {
+	text-decoration: none;
+	font-weight: 700;
+	color: #ececec;
+}

@@ -340,4 +340,119 @@ h6 {
 .owl-nav {
   display: none; }
 
+.gallery {
+  margin-bottom: 200px; }
+
+.gallery__top {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-bottom: 80px; }
+
+.gallery__title {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #3b3b3b;
+  margin-right: 20px; }
+
+.gallery__line {
+  height: 1px;
+  width: 200px;
+  background-color: #e5e3e3; }
+
+.gallery__bottom {
+  display: -ms-flexbox;
+  display: flex;
+  height: 432px; }
+
+.gallery__big-wrap {
+  -ms-flex: 1 1 33.33%;
+      flex: 1 1 33.33%;
+  overflow: hidden; }
+
+.gallery__link {
+  display: block;
+  height: 100%; }
+
+.gallery__list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  -ms-flex: 1 1 66.66%;
+      flex: 1 1 66.66%; }
+
+.gallery__item {
+  -ms-flex: 0 1 50%;
+      flex: 0 1 50%;
+  height: 50%;
+  overflow: hidden; }
+
+.gallery__img {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.footer {
+  height: 317px;
+  background-color: #3b3b3b;
+  padding-top: 100px; }
+
+.footer__list {
+  display: -ms-flexbox;
+  display: flex; }
+
+.footer__item {
+  -ms-flex: 1 1 230px;
+      flex: 1 1 230px;
+  margin-right: 60px; }
+  .footer__item:last-child {
+    margin-right: 0; }
+
+.restaurant__title {
+  color: #fff;
+  margin-bottom: 5px; }
+
+.restaurant__address {
+  font-weight: 300;
+  color: #ebebeb;
+  line-height: 25px;
+  margin-bottom: 5px; }
+
+.restaurant__phone {
+  font-weight: 700;
+  color: #ebebeb; }
+
+.footer__link {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 15px; }
+  .footer__link:last-child {
+    margin-bottom: 0; }
+
+.footer__logo-link {
+  display: block;
+  height: 30px;
+  width: 80px;
+  margin-bottom: 20px;
+  background: url("/img/logo/white-logo.png") center center no-repeat; }
+
+.footer__copyright {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ececec; }
+
+.footer__copyright-link {
+  text-decoration: none;
+  font-weight: 700;
+  color: #ececec; }
+
 /*# sourceMappingURL=maps/main.min.css.map */
