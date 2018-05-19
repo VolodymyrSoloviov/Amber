@@ -16,6 +16,9 @@ $(function() {
 			div.removeClass('dishes__list_active');
 			content.text("load more");
 			
+			$('html, body').animate({
+				scrollTop : $('#menu').position().top
+				}, 1000);
 		}
 
 		if(!icon.hasClass('fa-angle-up')) {
